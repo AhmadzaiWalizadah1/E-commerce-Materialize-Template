@@ -1,0 +1,112 @@
+
+/*COLOR FOR NAVBAR AND LOGO*/
+nav ul a,
+nav .brand-logo {
+  color: purple;
+}
+/*THE HOVER EFFECT */
+nav .brand-logo:hover {
+   color:red;
+}
+nav ul a:hover {
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  text-shadow: 1px;
+}
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: purple;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  min-height: 100%;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-family: verdana;
+}
+.parallax-container .header {
+  color: white;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.share-buttons {
+  margin: 4px;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.page-footer a {
+  float: left;
+  margin: 3px;
+}
+footer.page-footer {
+  margin: 0;
+}
+
+
+ .parallax img 
+ {
+ 	 background-repeat: no-repeat;
+ 	 background-size: cover;
+ }
+ .parallax-container
+ {
+ 	color: black;
+ }
+ @media only screen and (max-width : 600px) {
+  .parallax-container
+ {
+ 	color: white;
+ }
+}
+ nav a.button-collapse
+ {
+ 	color:black;
+ }
+ .purple.lighten-1 {
+  background-color: #CC0066 !important;
+}
+.teal-text.text-lighten-2 {
+  color: #CC0066 !important;
+}
+.share-buttons{
+	list-style: none;
+}
+
+.share-buttons li{
+	display: inline;
+}
+nav
+{
+	overflow: visible;
+}
+nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
